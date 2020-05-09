@@ -88,13 +88,25 @@
 	  		text-align: center;
 	  		transform: translate(-50%,calc(50% + 100px));
 	  	}
-		  .ucapan1{
-	  		font-size: 25pt;
-	  		right: 0;
+		 .btn {
+			position: absolute;
+			right: 0;
 	  		bottom: 0;
-	  		text-align: center;
-	  		transform: translate(-50%,calc(50% + 100px));
-	  	}
+	  		transform: translate(-50%,0%);
+	  		text-shadow: 0px 0px 10px #000;
+	  		z-index: 2;
+			background: transparent;
+			border: transparent solid 1px;
+			border-radius: 3px;
+			color: #fff;
+			display: inline-block;
+			font-size: 14pt;
+			padding: 8pt 15pt;
+			text-decoration: none;
+			text-align: center;
+			min-width: 60px;
+			transition: color 0.1s ease;
+		}
 	  	.quotes{
 	  		left: 50%;
 	  		bottom: 0;
@@ -389,7 +401,7 @@
 			<div class="jam" id="time">
 				00:00:00
 			</div>
-			<div class="ucapan1" href="arinurrahman.github.io/A/index.html">Here!</div>
+			<div class="btn"><a href="arinurrahman.github.io/A">Here!</a></div>
 			<div class="ucapan" id="quote"></div>
 			<div class="note">ngeng</div>
 			<div class="pengembang">Andika Sujanadi</div>
