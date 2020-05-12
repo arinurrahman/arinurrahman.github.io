@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	  <title>BUCIN</title>
+	  <title>PIA</title>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -393,7 +393,6 @@
 			<div class="bulat">
 				<span></span>
 				<span></span>
-				<span></span>
 			</div>
 			<div class="jam" id="time">
 				00:00:00
@@ -514,10 +513,13 @@
 			}
 			function specialEffects(){
 				if(localStorage.getItem("manualColor")=="#4c1130"){
-					setTimeout(function() { createNote("Semangat beb"); }, 5000);
+					setTimeout(function() { createNote("Semangat SBMPTN Pia"); }, 5000);
 				}
 				else if(localStorage.getItem("manualColor")=="#000000"){
-					setTimeout(function() { createNote("halo sayang"); }, 5000);
+					setTimeout(function() { createNote("Hallo Pia"); }, 5000);
+				}
+				else if(localStorage.getItem("manualColor")=="#ff9900"){
+					setTimeout(function() { createNote("Mau Jadi Pacarku?"); }, 5000);
 				}
 			}
 			function createNote(isi){
@@ -881,37 +883,37 @@
 					txt2=txt;
 				}
 				else if(H<9){
-					txt='Good Morning You:)';
+					txt='Good Morning Pia, Have A Nice Day :)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<12){
-					txt='Be Happy Today:)';
+					txt='Be Happy Today, Pia:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<16){
-					txt='Good Afternoon Dear:)';
+					txt='Good Afternoon Pia:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<19){
-					txt='Good Afternoon, Take a Rest:)';
+					txt='Good Afternoon, I Hope You Have A Great Day:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<23){
-					txt='Good Evening Sweetie:)';
+					txt='Good Evening, Time To Sleep :)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<=24){
-					txt='Time to Sleep, Good Night:)';
+					txt='Time to Sleep, Good Night Pia :)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
@@ -990,10 +992,6 @@
 			  {
 			    "quote": "Sombong dong ada yang bisa disombongkan kok",
 			    "source": "Yahya Ragil Saputro"
-			  },
-			  {
-			    "quote": "Bersombonglah  dengan kemampuan jangan tanpa kemampuan",
-			    "source": "Ari Nur Rahman"
 			  },
 			  {
 			    "quote": "Pikirkan kemungkinan terburuk sebelum melakukan sesuatu dan tanyakan kepada dirimu  siapkah menerimanya",
